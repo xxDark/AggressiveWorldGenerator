@@ -58,7 +58,7 @@ public final class BukkitPlugin extends JavaPlugin {
                     case "resume": {
                         AggressiveWorldGenerator generator = generatorMap.get(((Player) sender).getWorld());
                         if (generator != null) {
-                            generator.paused = true;
+                            generator.paused = false;
                             sender.sendMessage("§aGeneration resumed");
                         }
                         break;
