@@ -1,0 +1,6 @@
+name: AggressiveWorldGenerator
+authors:
+  - CertainLach
+  - xDark
+main: ru.cristalix.aggressiveworldgenerator.BukkitPlugin
+version: 1.0

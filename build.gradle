@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+group 'ru.cristalix'
+version '1.0'
+
+sourceCompatibility = 1.8
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot:1.12.2-R0.1-SNAPSHOT'
+}
