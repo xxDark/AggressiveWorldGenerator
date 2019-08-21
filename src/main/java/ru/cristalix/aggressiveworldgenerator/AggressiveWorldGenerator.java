@@ -10,7 +10,6 @@ abstract class AggressiveWorldGenerator {
     long currentChunk = 0;
     int chunksOnTick;
     boolean paused = false;
-    boolean finished = false;
 
     AggressiveWorldGenerator(World world, int targetRadius, int chunksOnTick) {
         worldName = world.getName();

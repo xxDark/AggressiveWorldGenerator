@@ -21,7 +21,6 @@ final class AggressiveWorldGenerator_v1_12_R1 extends AggressiveWorldGenerator {
 
     @Override
     boolean tick() {
-        if (finished) return true;
         if (paused) return false;
         ChunkGenerator generator = this.generator;
         ChunkProviderServer chunkProvider = this.chunkProvider;
@@ -43,10 +42,6 @@ final class AggressiveWorldGenerator_v1_12_R1 extends AggressiveWorldGenerator {
             chunkProvider.saveChunk(chunk, true);
             currentChunk++;
         }
-        if (currentChunk >= targetSpiralCoord) {
-            finished = true;
-            return true;
-        }
-        return false;
+        return currentChunk >= targetSpiralCoord;
     }
 }
