@@ -1,2 +1,3 @@
 rootProject.name = 'aggressive-world-generator'
-
+include '1_12_R1'
+include 'shared'
