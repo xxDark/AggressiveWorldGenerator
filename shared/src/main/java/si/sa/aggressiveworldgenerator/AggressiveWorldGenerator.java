@@ -1,7 +1,7 @@
-package ru.cristalix.aggressiveworldgenerator;
+package si.sa.aggressiveworldgenerator;
 
 import org.bukkit.World;
-import ru.cristalix.core.Formatting;
+import si.sa.core.Formatting;
 
 abstract class AggressiveWorldGenerator {
 

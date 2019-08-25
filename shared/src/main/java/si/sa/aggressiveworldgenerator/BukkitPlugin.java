@@ -1,4 +1,4 @@
-package ru.cristalix.aggressiveworldgenerator;
+package si.sa.aggressiveworldgenerator;
 
 import com.google.common.collect.MapMaker;
 import org.bukkit.World;
@@ -23,7 +23,7 @@ public final class BukkitPlugin extends JavaPlugin {
     public void onEnable() {
         try {
             String nmsVersion = getServer().getClass().getDeclaredField("console").getType().getPackage().getName().split("\\.")[3];
-            Class<? extends AggressiveWorldGenerator> clazz = (Class<? extends AggressiveWorldGenerator>) getClassLoader().loadClass("ru.cristalix.aggressiveworldgenerator.AggressiveWorldGenerator_" + nmsVersion);
+            Class<? extends AggressiveWorldGenerator> clazz = (Class<? extends AggressiveWorldGenerator>) getClassLoader().loadClass("si.sa.aggressiveworldgenerator.AggressiveWorldGenerator_" + nmsVersion);
             generator = (Constructor<? extends AggressiveWorldGenerator>) clazz.getDeclaredConstructors()[0];
             generator.setAccessible(true);
         } catch (ClassNotFoundException | NoSuchFieldException ex) {
