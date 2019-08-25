@@ -1,4 +1,4 @@
-package si.sa.aggressiveworldgenerator;
+package ru.cristalix.aggressiveworldgenerator;
 
 import net.minecraft.server.v1_12_R1.Chunk;
 import net.minecraft.server.v1_12_R1.ChunkGenerator;

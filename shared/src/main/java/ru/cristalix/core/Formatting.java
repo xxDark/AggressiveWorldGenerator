@@ -1,4 +1,4 @@
-package si.sa.core;
+package ru.cristalix.core;
 
 public final class Formatting {
 

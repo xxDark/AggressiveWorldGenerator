@@ -1,4 +1,4 @@
-package si.sa.aggressiveworldgenerator;
+package ru.cristalix.aggressiveworldgenerator;
 
 final class UtilPlotPosition {
 
