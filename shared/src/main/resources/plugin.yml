@@ -1,0 +1,5 @@
+name: AggressiveWorldGenerator
+main: si.sa.aggressiveworldgenerator.BukkitPlugin
+author: CertainLach
+commands:
+  aggressiveworldgenerator:
